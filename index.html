@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Treats24 | Kolkata's Favourite Food Delivery App</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.14.0/dist/tabler-icons.min.css" />
+  <meta name="description"
+    content="Treats24 - Kolkata's favourite food delivery app. Order from 500+ restaurants. Dil Se Delivery." />
+</head>
+
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="t24-nav" id="mainNav">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo" id="navLogo">
+        <img src="assets/img/logo.png" alt="Treats24" />
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <i class="ti ti-menu-2"></i>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="partner.html" class="nav-cta"><i class="ti ti-building-store"></i> Partner With Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="home">
+    <div class="hero-bg-img">
+      <img src="assets/img/home-banner.jpeg"
+        alt="Delicious food" loading="eager" />
+    </div>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <div class="container">
+        <div class="hero-text">
+          <div class="hero-pill">
+            <span class="pill-dot"></span>
+            <span id="heroPill">Now live in Howrah — More cities coming soon!</span>
+          </div>
+          <h1 id="heroHeadline">
+            Your Favourite Food,<br />
+            <span class="hero-love">Delivered with Love <span class="heart">❤️</span></span>
+          </h1>
+          <p id="heroSubtext">Discover the best restaurants around you and enjoy seamless delivery anytime. Fresh, fast,
+            and made with heart.</p>
+
+          <!-- App Download -->
+          <div class="hero-app-download">
+            <span class="had-label">Download the App</span>
+            <div class="app-store-btn-row">
+              <a href="https://play.google.com/store" target="_blank" class="app-store-btn android">
+                <i class="ti ti-brand-google-play"></i>
+                <div>
+                  <small>Get it on</small>
+                  <strong>Google Play</strong>
+                </div>
+              </a>
+              <a href="https://apps.apple.com" target="_blank" class="app-store-btn ios">
+                <i class="ti ti-brand-apple"></i>
+                <div>
+                  <small>Download on the</small>
+                  <strong>App Store</strong>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Stats Bar -->
+    <div class="hero-stats-bar" id="statsBar">
+      <div class="hsb-stat">
+        <i class="ti ti-building-store" style="font-size:1.4rem;color:var(--primary)"></i>
+        <div>
+          <strong>500+</strong>
+          <span>Restaurants</span>
+        </div>
+      </div>
+      <div class="hsb-divider"></div>
+      <div class="hsb-stat">
+        <i class="ti ti-map-pin-filled" style="font-size:1.4rem;color:var(--accent)"></i>
+        <div>
+          <strong>Kolkata</strong>
+        </div>
+        <div class="city-hover">More Cities Soon</div>
+      </div>
+      <div class="hsb-divider"></div>
+      <div class="hsb-stat">
+        <i class="ti ti-bolt" style="font-size:1.4rem;color:var(--warning)"></i>
+        <div>
+          <strong>Fast</strong>
+          <span>Local Delivery</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT SECTION ========== -->
+  <section class="about-section section-pad" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-img-side reveal">
+          <div class="about-img-wrap">
+            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=700&auto=format&fit=crop"
+              alt="Restaurant food" />
+          </div>
+        </div>
+        <div class="about-text-side reveal" style="--delay:0.15s">
+          <div class="section-eyebrow"><i class="ti ti-heart-filled"></i> About Treats24</div>
+          <h2>Food Delivery Built with <span>Heart & Soul</span></h2>
+          <p>Treats24 is a community-driven food delivery platform focused on connecting people with local food culture. It aims to deliver delicious food that is accessible, affordable, and convenient while offering a seamless ordering experience. By partnering with local restaurants, cloud kitchens, and home chefs, Treats24 supports small businesses and promotes authentic neighborhood flavors. Its mission is to bring people together through great food while strengthening the local economy</p>
+          
+          <div class="about-vals">
+            <div class="about-val">
+              <div class="av-icon"><i class="ti ti-bolt"></i></div>
+              <div>
+                <strong>Lightning-Fast Delivery</strong>
+                <p>Average delivery time under 35 minutes, with real-time tracking all the way.</p>
+              </div>
+            </div>
+            <div class="about-val">
+              <div class="av-icon av2"><i class="ti ti-shield-check"></i></div>
+              <div>
+                <strong>Verified Quality</strong>
+                <p>Every restaurant partner is FSSAI-certified and quality-checked before listing.</p>
+              </div>
+            </div>
+            <div class="about-val">
+              <div class="av-icon av3"><i class="ti ti-heart"></i></div>
+              <div>
+                <strong>Made with Love</strong>
+                <p>Designed by Kolkatans, for Kolkatans. We understand the city's food like nobody else.</p>
+              </div>
+            </div>
+          </div>
+          <a href="partner.html" class="about-cta">
+            <i class="ti ti-building-store"></i> Partner With Us
+            <i class="ti ti-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== WHY TREATS24 ========== -->
+  <section class="why-section section-pad" id="why">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-eyebrow"><i class="ti ti-sparkles"></i> Our Promise</div>
+        <h2>Why Choose <span>Treats24</span></h2>
+        <p>We're building something different — a food delivery platform that puts restaurants and customers first.</p>
+      </div>
+      <div class="why-grid" id="whyGrid">
+        <!-- Rendered by JS from CONFIG -->
+      </div>
+    </div>
+  </section>
+
+<!-- ========== APP FEATURES SECTION ========== -->
+<section class="app-features-section section-pad" id="app-features">
+  <div class="container">
+    <div class="section-header text-center">
+      <div class="section-eyebrow"><i class="ti ti-sparkles"></i> App Features</div>
+      <h2>Everything You Love, <span>Now in One App</span></h2>
+<p>Discover powerful features designed to make your food journey smoother, faster, and more enjoyable — all with a touch of Treats24 love.</p>
+    </div>
+    <div class="aff-wrap">
+
+      <div class="aff-side">
+        <div class="aff-card">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" fill="#e8f5e9"/><path d="M24 12c-1.5 4-6 6-6 11a6 6 0 0012 0c0-5-4.5-7-6-11z" fill="#4CAF50"/><ellipse cx="18" cy="30" rx="4" ry="2.5" fill="#81C784" opacity=".6"/><path d="M24 20v12" stroke="#388E3C" stroke-width="1.5" stroke-linecap="round"/></svg>
+          <span>Healthy</span>
+        </div>
+        <div class="aff-card aff-toggle-card">
+          <div class="aff-toggle"><div class="aff-knob"></div></div>
+          <span>Veg Mode</span>
+        </div>
+        <div class="aff-card">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" fill="#FFF3E0"/><rect x="14" y="28" width="20" height="10" rx="3" fill="#FF7043"/><rect x="18" y="22" width="12" height="8" rx="2" fill="#FFA726"/><rect x="21" y="16" width="6" height="8" rx="2" fill="#FFCA28"/><line x1="24" y1="14" x2="24" y2="10" stroke="#E91E63" stroke-width="1.5" stroke-linecap="round"/><circle cx="24" cy="9" r="2" fill="#E91E63"/><line x1="18" y1="15" x2="16" y2="11" stroke="#9C27B0" stroke-width="1.5" stroke-linecap="round"/><circle cx="15" cy="10" r="2" fill="#9C27B0"/><line x1="30" y1="15" x2="32" y2="11" stroke="#FF9800" stroke-width="1.5" stroke-linecap="round"/><circle cx="33" cy="10" r="2" fill="#FF9800"/></svg>
+          <span>Plan a Party</span>
+        </div>
+        <div class="aff-card">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" fill="#E3F2FD"/><circle cx="24" cy="24" r="6" fill="#1565C0"/><circle cx="24" cy="24" r="3" fill="#fff"/><circle cx="24" cy="24" r="10" stroke="#42A5F5" stroke-width="1.5" fill="none" stroke-dasharray="3 2"/><circle cx="24" cy="24" r="14" stroke="#90CAF9" stroke-width="1" fill="none" stroke-dasharray="2 3"/><line x1="24" y1="10" x2="24" y2="13" stroke="#1565C0" stroke-width="2" stroke-linecap="round"/><line x1="24" y1="35" x2="24" y2="38" stroke="#1565C0" stroke-width="2" stroke-linecap="round"/><line x1="10" y1="24" x2="13" y2="24" stroke="#1565C0" stroke-width="2" stroke-linecap="round"/><line x1="35" y1="24" x2="38" y2="24" stroke="#1565C0" stroke-width="2" stroke-linecap="round"/></svg>
+          <span>Live Tracking</span>
+        </div>
+      </div>
+
+      <div class="aff-phone-wrap">
+        <div class="aff-phone-outer">
+          <div class="aff-phone-notch"></div>
+          <div class="aff-phone-inner">
+            <div class="aff-phone-card">
+              <svg width="66" height="66" viewBox="0 0 66 66" fill="none"><circle cx="33" cy="33" r="30" fill="#EDE7F6"/><rect x="18" y="20" width="30" height="28" rx="5" fill="#7E57C2"/><rect x="21" y="26" width="24" height="18" rx="3" fill="#fff"/><rect x="24" y="29" width="7" height="6" rx="1.5" fill="#B39DDB"/><rect x="33" y="29" width="7" height="6" rx="1.5" fill="#9575CD"/><rect x="24" y="37" width="7" height="4" rx="1" fill="#CE93D8"/><rect x="33" y="37" width="7" height="4" rx="1" fill="#B39DDB"/><rect x="24" y="14" width="4" height="8" rx="2" fill="#7E57C2"/><rect x="38" y="14" width="4" height="8" rx="2" fill="#7E57C2"/><circle cx="45" cy="43" r="9" fill="#FF7043"/><path d="M42 43h6M45 40v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/></svg>
+              <p>Easy Ordering</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="aff-side">
+        <div class="aff-card">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" fill="#FCE4EC"/><ellipse cx="24" cy="28" rx="12" ry="5" fill="#F48FB1"/><ellipse cx="24" cy="26" rx="10" ry="4" fill="#F8BBD9"/><circle cx="24" cy="22" r="6" fill="#E91E63"/><circle cx="22" cy="20" r="2" fill="#F48FB1"/><path d="M30 16 Q34 12 36 14" stroke="#E91E63" stroke-width="1.5" fill="none" stroke-linecap="round"/><path d="M28 14 Q30 10 32 12" stroke="#AD1457" stroke-width="1.2" fill="none" stroke-linecap="round"/></svg>
+          <span>Gourmet</span>
+        </div>
+        <div class="aff-card">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" fill="#E8EAF6"/><rect x="13" y="18" width="22" height="14" rx="4" fill="#3F51B5" transform="rotate(-6 13 18)"/><rect x="14" y="19" width="20" height="12" rx="3" fill="#5C6BC0" transform="rotate(-6 14 19)"/><text x="24" y="28" text-anchor="middle" font-family="Poppins,sans-serif" font-size="8" font-weight="800" fill="#fff" transform="rotate(-6 24 28)">% OFF</text><circle cx="34" cy="15" r="6" fill="#FF5252"/><text x="34" y="18" text-anchor="middle" font-family="Poppins,sans-serif" font-size="7" font-weight="800" fill="#fff">★</text></svg>
+          <span>Offers</span>
+        </div>
+        <div class="aff-card">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" fill="#FFFDE7"/><polygon points="24,12 27,20 36,20 29,25 31,34 24,29 17,34 19,25 12,20 21,20" fill="#FFC107"/><polygon points="24,15 26.5,21 33,21 28,25 30,31 24,27 18,31 20,25 15,21 21.5,21" fill="#FFD54F"/><circle cx="24" cy="24" r="4" fill="#FF8F00"/></svg>
+          <span>Rewards</span>
+        </div>
+        <div class="aff-card">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" fill="#F3E5F5"/><rect x="13" y="20" width="10" height="14" rx="3" fill="#9C27B0"/><rect x="25" y="16" width="10" height="18" rx="3" fill="#CE93D8"/><rect x="13" y="14" width="10" height="8" rx="3" fill="#7B1FA2"/><rect x="13" y="36" width="22" height="2" rx="1" fill="#6A1B9A"/></svg>
+          <span>Collections</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+  <!-- ========== CONTACT SECTION ========== -->
+  <section class="contact-section section-pad" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-left reveal">
+          <div class="section-eyebrow"><i class="ti ti-message"></i> Get in Touch</div>
+          <h2>Let's <span>Talk</span></h2>
+          <p>Have a question, feedback, or want to explore a partnership? We'd love to hear from you. Our team is always
+            here.</p>
+          <div class="contact-info-list">
+            <div class="cil-item">
+              <div class="cil-icon"><i class="ti ti-mail"></i></div>
+              <div>
+                <strong>Email</strong>
+                <a href="mailto:help@treats24.com">help@treats24.com</a>
+              </div>
+            </div>
+            <div class="cil-item">
+              <div class="cil-icon"><i class="ti ti-brand-whatsapp"></i></div>
+              <div>
+                <strong>WhatsApp</strong>
+                <a href="https://wa.me/919876543210">+91 98765 43210</a>
+              </div>
+            </div>
+            <div class="cil-item">
+              <div class="cil-icon"><i class="ti ti-map-pin"></i></div>
+              <div>
+                <strong>Location</strong>
+                <span>Kolkata, West Bengal, India</span>
+              </div>
+            </div>
+          </div>
+          <div class="contact-social">
+            <a href="#" class="csoc" aria-label="Instagram"><i class="ti ti-brand-instagram"></i></a>
+            <a href="#" class="csoc" aria-label="Facebook"><i class="ti ti-brand-facebook"></i></a>
+            <a href="#" class="csoc" aria-label="Twitter"><i class="ti ti-brand-x"></i></a>
+            <a href="https://wa.me/919876543210" class="csoc wa" aria-label="WhatsApp"><i
+                class="ti ti-brand-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="reveal" style="--delay:0.15s">
+          <div class="contact-form-card" id="contactForm">
+            <div class="cf-row">
+              <div class="cf-field">
+                <i class="ti ti-user"></i>
+                <input type="text" id="cf_name" placeholder="Your Name" />
+              </div>
+              <div class="cf-field">
+                <i class="ti ti-phone"></i>
+                <input type="tel" id="cf_phone" placeholder="Phone Number" />
+              </div>
+            </div>
+            <div class="cf-field">
+              <i class="ti ti-mail"></i>
+              <input type="email" id="cf_email" placeholder="Email Address" />
+            </div>
+            <div class="cf-field">
+              <i class="ti ti-map-pin"></i>
+              <input type="text" id="cf_location" placeholder="Your City / Location" />
+            </div>
+            <div class="cf-field">
+              <i class="ti ti-message"></i>
+              <textarea id="cf_message" rows="4" placeholder="Your message…"></textarea>
+            </div>
+            <button class="cf-submit" onclick="submitContact()">
+              <i class="ti ti-send"></i> Send Message
+            </button>
+          </div>
+          <div class="contact-success hidden" id="contactSuccess">
+            <div class="cs-icon"><i class="ti ti-circle-check"></i></div>
+            <h3>Message Sent!</h3>
+            <p>Thanks for reaching out. Our team will get back to you within 24 hours.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== APP DOWNLOAD ========== -->
+  <section class="app-section section-pad" id="app">
+    <div class="container">
+      <div class="app-grid">
+        <div class="app-content reveal">
+          <div class="section-eyebrow"><i class="ti ti-device-mobile"></i> Mobile App</div>
+          <h2>Order Faster with the <span>Treats24 App</span></h2>
+          <p>Get the smoothest food ordering experience on Android and iOS. Track your order live, pay securely, and
+            earn loyalty rewards.</p>
+          <div class="app-features-list">
+            <div class="afl-item"><i class="ti ti-check"></i> Real-time order tracking</div>
+            <div class="afl-item"><i class="ti ti-check"></i> Exclusive app-only deals &amp; offers</div>
+            <div class="afl-item"><i class="ti ti-check"></i> Multiple secure payment options</div>
+            <div class="afl-item"><i class="ti ti-check"></i> Loyalty rewards on every order</div>
+          </div>
+          <div class="app-store-row">
+            <a href="https://play.google.com/store" target="_blank" class="app-store-btn android">
+              <i class="ti ti-brand-google-play"></i>
+              <div>
+                <small>Get it on</small>
+                <strong>Google Play</strong>
+              </div>
+            </a>
+            <a href="https://apps.apple.com" target="_blank" class="app-store-btn ios">
+              <i class="ti ti-brand-apple"></i>
+              <div>
+                <small>Download on the</small>
+                <strong>App Store</strong>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="reveal" style="--delay:0.2s">
+          <div class="app-qr-card">
+            <div class="qr-tabs">
+              <button class="qr-tab active" data-platform="android">
+                <i class="ti ti-brand-android"></i> Android
+              </button>
+              <button class="qr-tab" data-platform="ios">
+                <i class="ti ti-brand-apple"></i> iOS
+              </button>
+            </div>
+            <!-- Android QR -->
+            <div id="qrAndroid">
+              <div class="qr-code-wrap">
+                <svg width="140" height="140" viewBox="0 0 140 140" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="140" height="140" fill="#fff" />
+                  <rect x="8" y="8" width="35" height="35" rx="4" fill="#6A1B9A" />
+                  <rect x="13" y="13" width="25" height="25" rx="2" fill="#fff" />
+                  <rect x="18" y="18" width="15" height="15" rx="1" fill="#6A1B9A" />
+                  <rect x="97" y="8" width="35" height="35" rx="4" fill="#6A1B9A" />
+                  <rect x="102" y="13" width="25" height="25" rx="2" fill="#fff" />
+                  <rect x="107" y="18" width="15" height="15" rx="1" fill="#6A1B9A" />
+                  <rect x="8" y="97" width="35" height="35" rx="4" fill="#6A1B9A" />
+                  <rect x="13" y="102" width="25" height="25" rx="2" fill="#fff" />
+                  <rect x="18" y="107" width="15" height="15" rx="1" fill="#6A1B9A" />
+                  <rect x="50" y="8" width="5" height="5" fill="#6A1B9A" /><rect x="60" y="8" width="5" height="5" fill="#6A1B9A" /><rect x="70" y="8" width="5" height="5" fill="#6A1B9A" /><rect x="80" y="8" width="5" height="5" fill="#6A1B9A" />
+                  <rect x="50" y="18" width="5" height="5" fill="#6A1B9A" /><rect x="65" y="18" width="5" height="5" fill="#6A1B9A" /><rect x="80" y="18" width="5" height="5" fill="#6A1B9A" />
+                  <rect x="55" y="28" width="5" height="5" fill="#6A1B9A" /><rect x="70" y="28" width="5" height="5" fill="#6A1B9A" /><rect x="85" y="28" width="5" height="5" fill="#6A1B9A" />
+                  <rect x="50" y="38" width="5" height="5" fill="#6A1B9A" /><rect x="60" y="38" width="5" height="5" fill="#6A1B9A" /><rect x="75" y="38" width="5" height="5" fill="#6A1B9A" />
+                  <rect x="8" y="50" width="5" height="5" fill="#6A1B9A" /><rect x="18" y="50" width="5" height="5" fill="#6A1B9A" /><rect x="28" y="50" width="5" height="5" fill="#6A1B9A" /><rect x="50" y="50" width="5" height="5" fill="#6A1B9A" /><rect x="65" y="50" width="5" height="5" fill="#6A1B9A" /><rect x="75" y="50" width="5" height="5" fill="#6A1B9A" /><rect x="90" y="50" width="5" height="5" fill="#6A1B9A" /><rect x="105" y="50" width="5" height="5" fill="#6A1B9A" /><rect x="120" y="50" width="5" height="5" fill="#6A1B9A" />
+                  <rect x="13" y="60" width="5" height="5" fill="#6A1B9A" /><rect x="28" y="60" width="5" height="5" fill="#6A1B9A" /><rect x="55" y="60" width="5" height="5" fill="#6A1B9A" /><rect x="70" y="60" width="5" height="5" fill="#6A1B9A" /><rect x="85" y="60" width="5" height="5" fill="#6A1B9A" /><rect x="100" y="60" width="5" height="5" fill="#6A1B9A" /><rect x="120" y="60" width="5" height="5" fill="#6A1B9A" />
+                  <rect x="8" y="70" width="5" height="5" fill="#6A1B9A" /><rect x="23" y="70" width="5" height="5" fill="#6A1B9A" /><rect x="50" y="70" width="5" height="5" fill="#6A1B9A" /><rect x="65" y="70" width="5" height="5" fill="#6A1B9A" /><rect x="80" y="70" width="5" height="5" fill="#6A1B9A" /><rect x="95" y="70" width="5" height="5" fill="#6A1B9A" /><rect x="110" y="70" width="5" height="5" fill="#6A1B9A" /><rect x="125" y="70" width="5" height="5" fill="#6A1B9A" />
+                  <rect x="13" y="80" width="5" height="5" fill="#6A1B9A" /><rect x="28" y="80" width="5" height="5" fill="#6A1B9A" /><rect x="55" y="80" width="5" height="5" fill="#6A1B9A" /><rect x="70" y="80" width="5" height="5" fill="#6A1B9A" /><rect x="90" y="80" width="5" height="5" fill="#6A1B9A" /><rect x="105" y="80" width="5" height="5" fill="#6A1B9A" />
+                  <rect x="50" y="90" width="5" height="5" fill="#6A1B9A" /><rect x="65" y="90" width="5" height="5" fill="#6A1B9A" /><rect x="80" y="90" width="5" height="5" fill="#6A1B9A" /><rect x="100" y="90" width="5" height="5" fill="#6A1B9A" /><rect x="115" y="90" width="5" height="5" fill="#6A1B9A" />
+                  <rect x="50" y="100" width="5" height="5" fill="#6A1B9A" /><rect x="60" y="100" width="5" height="5" fill="#6A1B9A" /><rect x="75" y="100" width="5" height="5" fill="#6A1B9A" /><rect x="95" y="100" width="5" height="5" fill="#6A1B9A" /><rect x="110" y="100" width="5" height="5" fill="#6A1B9A" /><rect x="125" y="100" width="5" height="5" fill="#6A1B9A" />
+                  <rect x="50" y="110" width="5" height="5" fill="#6A1B9A" /><rect x="65" y="110" width="5" height="5" fill="#6A1B9A" /><rect x="80" y="110" width="5" height="5" fill="#6A1B9A" /><rect x="100" y="110" width="5" height="5" fill="#6A1B9A" /><rect x="115" y="110" width="5" height="5" fill="#6A1B9A" />
+                  <rect x="50" y="120" width="5" height="5" fill="#6A1B9A" /><rect x="60" y="120" width="5" height="5" fill="#6A1B9A" /><rect x="75" y="120" width="5" height="5" fill="#6A1B9A" /><rect x="90" y="120" width="5" height="5" fill="#6A1B9A" /><rect x="110" y="120" width="5" height="5" fill="#6A1B9A" /><rect x="125" y="120" width="5" height="5" fill="#6A1B9A" />
+                  <rect x="57" y="57" width="26" height="26" rx="4" fill="#6A1B9A" />
+                  <text x="70" y="74" text-anchor="middle" font-family="Poppins,sans-serif" font-size="13" font-weight="900" fill="#fff">T</text>
+                </svg>
+              </div>
+              <p class="qr-label">Scan to download on <strong>Android</strong><br />or tap the button below</p>
+              <a href="https://play.google.com/store" target="_blank" class="qr-direct-btn android">
+                <i class="ti ti-brand-google-play"></i> Open Play Store
+              </a>
+            </div>
+            <!-- iOS QR -->
+            <div id="qrIos" class="hidden">
+              <div class="qr-code-wrap">
+                <svg width="140" height="140" viewBox="0 0 140 140" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="140" height="140" fill="#fff" />
+                  <rect x="8" y="8" width="35" height="35" rx="4" fill="#FF7043" />
+                  <rect x="13" y="13" width="25" height="25" rx="2" fill="#fff" />
+                  <rect x="18" y="18" width="15" height="15" rx="1" fill="#FF7043" />
+                  <rect x="97" y="8" width="35" height="35" rx="4" fill="#FF7043" />
+                  <rect x="102" y="13" width="25" height="25" rx="2" fill="#fff" />
+                  <rect x="107" y="18" width="15" height="15" rx="1" fill="#FF7043" />
+                  <rect x="8" y="97" width="35" height="35" rx="4" fill="#FF7043" />
+                  <rect x="13" y="102" width="25" height="25" rx="2" fill="#fff" />
+                  <rect x="18" y="107" width="15" height="15" rx="1" fill="#FF7043" />
+                  <rect x="57" y="57" width="26" height="26" rx="4" fill="#FF7043" />
+                  <text x="70" y="74" text-anchor="middle" font-family="Poppins,sans-serif" font-size="13" font-weight="900" fill="#fff">T</text>
+                </svg>
+              </div>
+              <p class="qr-label">Scan to download on <strong>iOS</strong><br />or tap the button below</p>
+              <a href="https://apps.apple.com" target="_blank" class="qr-direct-btn ios">
+                <i class="ti ti-brand-apple"></i> Open App Store
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FAQ SECTION ========== -->
+  <section class="faq-section section-pad" id="faq">
+    <div class="container">
+      <div class="faq-layout">
+        <div class="faq-left reveal">
+          <div class="section-eyebrow"><i class="ti ti-help"></i> FAQ</div>
+          <h2>Got <span>Questions?</span></h2>
+          <p>Everything you need to know about Treats24. Can't find the answer? <a href="#contact">Contact us</a> directly.</p>
+          <div class="faq-decor">
+            <div class="faq-decor-circle c1"></div>
+            <div class="faq-decor-circle c2"></div>
+          </div>
+        </div>
+        <div class="faq-right reveal" style="--delay:0.1s" id="faqList">
+          <!-- Rendered by JS -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="footer-top container">
+      <div class="footer-brand">
+        <a href="index.html" class="nav-logo footer-logo">
+          <img src="assets/img/logo.png" alt="Treats24" class="footer-logo-img" />
+        </a>
+        <p class="footer-tagline">Dil Se Delivery</p>
+        <p>Kolkata's favourite food delivery platform connecting you to the best local restaurants, delivered with love.</p>
+        <div class="social-row">
+          <a href="#" class="social-btn" aria-label="Instagram"><i class="ti ti-brand-instagram"></i></a>
+          <a href="#" class="social-btn" aria-label="Facebook"><i class="ti ti-brand-facebook"></i></a>
+          <a href="#" class="social-btn" aria-label="Twitter"><i class="ti ti-brand-x"></i></a>
+          <a href="https://wa.me/919876543210" class="social-btn wa" aria-label="WhatsApp"><i class="ti ti-brand-whatsapp"></i></a>
+        </div>
+        <p style="font-size:0.8rem;color:rgba(255,255,255,0.3)">help@treats24.com</p>
+      </div>
+       <div class="footer-col"><h5>Partner</h5><ul>
+        <li><a href="partner.html">Register Restaurant</a></li>
+        
+      </ul></div>
+      <div class="footer-col">
+        <h5>Help</h5>
+        <ul>
+          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#faq">FAQ</a></li>
+       
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Legal</h5>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms &amp; Conditions</a></li>
+          <li><a href="#">Cookie Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© 2025 Treats24 Pvt. Ltd. All rights reserved. Made with <i class="ti ti-heart-filled" style="color:#e91e63;"></i> in Kolkata</p>
+        <div class="footer-badges">
+          <span><i class="ti ti-shield-check"></i> Secure Payments</span>
+          <span><i class="ti ti-certificate"></i> FSSAI Verified</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float -->
+  <a href="https://wa.me/919876543210?text=Hi%20Treats24!" target="_blank" class="wa-float" aria-label="Chat on WhatsApp">
+    <i class="ti ti-brand-whatsapp"></i>
+  </a>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
