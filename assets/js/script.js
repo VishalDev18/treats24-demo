@@ -55,7 +55,7 @@
       {
         icon: "ti-rocket",
         title: "Quick Onboarding",
-        text: "Get your restaurant live in 48 hours. Our streamlined process makes joining Treats24 incredibly simple and fast.",
+        text: "Get your restaurant live in 24 hours. Our streamlined process makes joining Treats24 incredibly simple and fast.",
         colorClass: "wc2"
       },
       {

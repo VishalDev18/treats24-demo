@@ -413,7 +413,7 @@
   .form-group input.invalid,.form-group textarea.invalid,.form-group select.invalid{border-color:var(--error);}
   .form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
   .form-grid-3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:18px;}
-  .form-full-3{grid-column:1/-1;}
+  .form-full-3{grid-column:1/-2;}
   .optional{font-weight:400;text-transform:none;letter-spacing:0;color:var(--text-muted);}
   .btn-submit{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;background:linear-gradient(135deg,var(--primary),var(--primary-mid));color:#fff;border:none;border-radius:50px;padding:15px;font-family:var(--font-primary);font-size:0.95rem;font-weight:700;cursor:pointer;transition:var(--transition);margin-top:8px;}
   .btn-submit:hover{transform:translateY(-2px);box-shadow:0 12px 32px rgba(106,27,154,0.35);}
@@ -483,7 +483,7 @@
     .footer-top{grid-template-columns:1fr 1fr;}
     .footer-brand{grid-column:1/-1;}
     .form-grid-3{grid-template-columns:1fr 1fr;}
-    .form-full-3{grid-column:1/-1;}
+    .form-full-3{grid-column:1/-2;}
     .benefits-grid{grid-template-columns:1fr 1fr;}
   }
   @media(max-width:900px){
